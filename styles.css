@@ -17,6 +17,12 @@ body{
     justify-content: space-between;
     list-style: none;
   }
+  .page-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+  }
   .page-header a {
     display: block;
     padding:0.5em;
