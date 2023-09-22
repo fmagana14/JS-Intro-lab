@@ -3,13 +3,16 @@ body{
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
+    background-color: black;
+    color: black;
 }
 
 .page-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: purple;
+    color: black;
 }
 .page-header ul {
     display: flex;
@@ -22,9 +25,34 @@ body{
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
+    /* background-color: white; */
   }
   .page-header a {
     display: block;
     padding:0.5em;
     text-decoration:none;
+  }
+  .items {
+    width: 80%;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    display: grid;
+    color: #a44c8a;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+  }
+  .items img {
+    width: 100%;
+    height: auto;
+  }
+  .items p:nth-child(2){
+    color: #67386c;
+  }
+  .items button{
+    /* text-align: right; */
+    color: #67386c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    background-color: #f869a9;
+    text-decoration: underline;
   }
