@@ -1,5 +1,7 @@
-import {data} from './data{';
-let itemcontainer = document.querySelector('#items')
+import data from './data.js';
+
+
+const itemsContainer = document.querySelector('#items')
 // the length of our data determines how many times this loop goes around
 for (let i = 0; i < data.length; i += 1) {
 	// create a new div element and give it a class name
@@ -13,6 +15,7 @@ for (let i = 0; i < data.length; i += 1) {
 	img.height = 300
 	// Add the image to the div
 	newDiv.appendChild(img)
+    
 	console.log(img) // Check the console!
 	itemsContainer.appendChild(newDiv)
 }
